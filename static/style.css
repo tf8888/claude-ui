@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #3498db;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+.query-container, .response-container {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+.file-list {
+    margin-top: 10px;
+}
+
+.file-item {
+    background-color: #f8f9fa;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border-left: 3px solid #3498db;
+}
+
+.file-name {
+    font-weight: bold;
+}
+
+.file-size {
+    color: #7f8c8d;
+    margin-left: 8px;
+    font-size: 0.9rem;
+}
+
+.response {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+    border-left: 4px solid #2ecc71;
+    white-space: pre-wrap;
+}
+
+.loading {
+    padding: 20px;
+    text-align: center;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    background-color: #fee;
+    color: #e74c3c;
+    padding: 15px;
+    border-radius: 4px;
+    border-left: 4px solid #e74c3c;
+}
+
+.code-block {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 15px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+}
